@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/DELL/Documents/dsd/lab/lab 8/multiplePushButtons/MainModule.xst" -ofn "C:/Users/DELL/Documents/dsd/lab/lab 8/multiplePushButtons/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MainModule.ucf -p xc3s500e-fg320-4 "MainModule.ngc" MainModule.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -t 1 MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf -ucf MainModule.ucf 
+bitgen -intstyle ise -f MainModule.ut MainModule.ncd 

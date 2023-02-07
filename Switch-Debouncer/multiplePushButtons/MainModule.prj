@@ -1,0 +1,5 @@
+verilog work "../LAB8_TASK2/Up_Down_Counter.v"
+verilog work "../LAB8_TASK2/mux.v"
+verilog work "../LAB8_TASK2/binarycoddeddecimal (1).v"
+verilog work "../LAB8_TASK2/bcd_to_7seg (1).v"
+verilog work "MainModule.v"

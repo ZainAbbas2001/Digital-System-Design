@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\DELL\Documents\dsd\lab\lab 8\multiplePushButtons\MainModule.ncd
+OUTFILE=C:\Users\DELL\Documents\dsd\lab\lab 8\multiplePushButtons\MainModule.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\DELL\Documents\dsd\lab\lab 8\multiplePushButtons
+LICENSE=WebPack
+USER_INFO=211847159_0_0_350
